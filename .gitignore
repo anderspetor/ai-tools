@@ -1,0 +1,10 @@
+# Build output: only the latest package lives in Release/, and it is not versioned in git.
+# Publish packages as GitHub Releases instead.
+Release/*
+!Release/.gitkeep
+
+# Personal Claude Code settings (per user and machine, not shared)
+.claude/settings.local.json
+
+# The AI's throwaway scripts (see "Running commands" in Instructions/instructions.md)
+.scratch/

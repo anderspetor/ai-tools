@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start Project Session"
+  short_description: "Load Project state and summarize next work"
+  default_prompt: "Use $start to load project and summarize its current status."

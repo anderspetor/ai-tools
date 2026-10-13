@@ -1,0 +1,23 @@
+# Template files: they come from the template (git@github.com:anderspetor/workbox.git) and are
+# overwritten by template updates (.claude/template-sync.sh). Never edit them inside a project:
+# improvements are made in the template. Everything not listed here belongs to the project.
+# One git pathspec per line; a trailing / means the whole folder.
+README.md
+Instructions/instructions.md
+Instructions/PROGRAMMER_GPT_MASTER.md
+Instructions/AUTONOMOUS_EXECUTION_PROTOCOL.md
+Instructions/BRAINSTORMER.md
+Instructions/REVIEWER.md
+Instructions/manuscript/README.md
+Design/README.md
+Source-files/README.md
+.agents/
+.claude/commands/
+.claude/agents/
+.claude/install-baseline.json
+.claude/install-baseline-local.json
+.claude/install-baseline-vm.json
+.claude/install-check.sh
+.claude/template-files.txt
+.claude/template-sync.sh
+.claude/feedback-push.sh
